@@ -1,0 +1,248 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+html,
+body {
+  font-family: "Roboto", sans-serif !important;
+}
+
+.form-control:focus,
+.form-control:hover {
+  border-color: none;
+}
+
+#overlay {
+  height: 100%;
+  width: 100%;
+  background: #ffffff;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 9999999;
+}
+
+#overlay img {
+  width: 8rem;
+  position: relative;
+  top: 43%;
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+}
+
+.img-logo {
+  width: 8rem;
+}
+
+.text-footer {
+  color: #b2bbca;
+  font-size: 10pt;
+}
+
+.bg-calling {
+  background-image: linear-gradient(
+    to bottom right,
+    #0d6efd,
+    #0dcaf0
+  ) !important;
+}
+
+.fs-9 {
+  font-size: 9pt;
+}
+
+.text-online {
+  font-size: 10pt;
+  margin-top: -10px;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #b2bbca;
+}
+
+.divider::after,
+.divider::before {
+  content: "";
+  border: 1px solid #f8f9fa;
+  flex: 1;
+}
+
+.divider:not(:empty)::before {
+  margin-right: 0.25em;
+}
+
+.divider:not(:empty)::after {
+  margin-left: 0.25em;
+}
+
+.chat-title {
+  margin-bottom: -1px;
+}
+
+.chat-profile {
+  top: 30%;
+}
+
+.chat:hover {
+  background: #f8f9fa;
+  border-radius: 0.375rem;
+}
+
+.chat-m {
+  margin-bottom: 70px;
+}
+
+.calling {
+  margin-top: -40px;
+}
+
+.story {
+  height: 200px;
+}
+
+.settings-p {
+  margin-top: -10px;
+}
+
+.focus-none,
+.hover.none {
+  border-color: none;
+}
+
+.darkmode {
+  background: #000000 !important;
+}
+
+.darkmode .darkmode-text {
+  color: var(--bs-light) !important;
+}
+
+.darkmode .darkmode-text-2 {
+  color: var(--bs-secondary) !important;
+}
+
+.darkmode .darkmode-nav {
+  background: #000000 !important;
+}
+
+.darkmode .darkmode-bg {
+  background: #303030 !important;
+}
+
+.darkmode .darkmode-bg-2 {
+  background: var(--bs-dark) !important;
+}
+
+.darkmode .darkmode-bg-3 {
+  background: #000000 !important;
+}
+
+.darkmode .darkmode-border {
+  border-color: #303030 !important;
+}
+
+.darkmode .darkmode-border-top {
+  border-top-color: transparent !important;
+}
+
+.darkmode .darkmode-border-transparent {
+  border-color: transparent !important;
+}
+
+.darkmode .darkmode-placeholder::placeholder {
+  color: var(--bs-light) !important;
+  opacity: 1;
+}
+
+.darkmode .darkmode-placeholder:-ms-input-placeholder {
+  color: var(--bs-light) !important;
+}
+
+.darkmode .darkmode-placeholder::-ms-input-placeholder {
+  color: var(--bs-light) !important;
+}
+
+.darkmode .darkmode-hover:hover {
+  background: #303030 !important;
+  border-radius: 0.375rem !important;
+}
+
+.darkmode .darkmode-btn-hover:hover {
+  background: #303030 !important;
+}
+
+.darkmode .darkmode-divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: var(--bs-secondary);
+}
+
+.darkmode .darkmode-divider::after,
+.darkmode .darkmode-divider::before {
+  content: "";
+  border: 1px solid var(--bs-secondary);
+  flex: 1;
+}
+
+.darkmode .darkmode-divider:not(:empty)::before {
+  margin-right: 0.25em;
+}
+
+.darkmode .darkmode-divider:not(:empty)::after {
+  margin-left: 0.25em;
+}
+
+.darkmode .darkmode-btn-close {
+  filter: var(--bs-btn-close-white-filter);
+}
+
+.upload-profile {
+  --bs-btn-color: #000;
+  --bs-btn-bg: #f8f9fa;
+  --bs-btn-border-color: #f8f9fa;
+  --bs-btn-hover-color: #000;
+  --bs-btn-hover-bg: #d3d4d5;
+  --bs-btn-hover-border-color: #c6c7c8;
+  --bs-btn-focus-shadow-rgb: 211, 212, 213;
+  --bs-btn-active-color: #000;
+  --bs-btn-active-bg: #c6c7c8;
+  --bs-btn-active-border-color: #babbbc;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #000;
+  --bs-btn-disabled-bg: #f8f9fa;
+  --bs-btn-disabled-border-color: #f8f9fa;
+  --bs-btn-padding-x: 0.75rem;
+  --bs-btn-padding-y: 0.375rem;
+  --bs-btn-font-family: ;
+  --bs-btn-font-size: 1rem;
+  --bs-btn-font-weight: 400;
+  --bs-btn-line-height: 1.5;
+  --bs-btn-border-radius: 0.375rem;
+  --bs-btn-hover-border-color: transparent;
+  --bs-btn-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15),
+    0 1px 1px rgba(0, 0, 0, 0.075);
+  --bs-btn-disabled-opacity: 0.65;
+  --bs-btn-focus-box-shadow: 0 0 0 0.25rem
+    rgba(var(--bs-btn-focus-shadow-rgb), 0.5);
+  display: inline-block;
+  padding: var(--bs-btn-padding-y) var(--bs-btn-padding-x);
+  font-family: var(--bs-btn-font-family);
+  font-size: var(--bs-btn-font-size);
+  font-weight: var(--bs-btn-font-weight);
+  line-height: var(--bs-btn-line-height);
+  color: var(--bs-btn-color);
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  border: var(--bs-btn-border-width) solid var(--bs-btn-border-color);
+  border-radius: var(--bs-btn-border-radius);
+  background-color: var(--bs-btn-bg);
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}

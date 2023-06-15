@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Messenger - Connecting With Your Friends Is More Fun</title>
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="assets/img/favicon/ms-icon-144x144.png">
+    <link rel="shortcut icon" href="assets/img/favicon/favicon.ico">
+    <meta name="theme-color" content="#ffffff">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap-icons.css">
+    <link href="assets/css/messenger.css" rel="stylesheet">
+    <script src="assets/vendor/sweetalert2/dist/sweetalert2.min.js"></script>
+    <link rel="stylesheet" href="assets/vendor/sweetalert2/dist/sweetalert2.min.css">
+    <link rel="stylesheet" href="assets/vendor/animate/animate.min.css">
+</head>
+
+<body class="bg-white overflow-x-hidden">
+
+    <div id="overlay" class="darkmode-bg-3">
+        <img src="assets/img/messenger.png" alt="Messenger"
+            class="mx-auto d-block mx-auto animate__animated animate__bounce animate__infinite">
+    </div>
+
+    <nav class="navbar bg-white sticky-top darkmode-nav">
+        <div class="container">
+            <div class="navbar-brand mb-0 h1 fw-bold darkmode-text"><a href="settings.html"><img
+                        src="assets/img/avatar/1.jpg" alt="Avatar"
+                        class="img-thumbnail rounded-circle darkmode-bg darkmode-border" width="35"></a>
+                Chat</div>
+            <div class="d-flex">
+                <a href="#" class="btn btn-light rounded-circle me-2 darkmode-bg darkmode-border-transparent"><i
+                        class="bi bi-camera-fill text-dark fs-5 darkmode-text"></i>
+                </a>
+                <a href="contact.html"
+                    class="btn btn-light rounded-circle darkmode-bg darkmode-border-transparent darkmode-text"><i
+                        class="bi bi-pencil-fill text-dark fs-5 darkmode-text"></i>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-2 chat-m">
+        <form action="" method="POST">
+            <div class="input-group mb-3">
+                <span class="input-group-text bg-light border-0 rounded-start-pill darkmode-bg darkmode-text"
+                    id="email"><i class="bi bi-search"></i></span>
+                <input type="search"
+                    class="form-control border-0 bg-light rounded-end-pill darkmode-bg darkmode-placeholder shadow-none text-dark darkmode-text"
+                    placeholder="Search" aria-label="Search">
+            </div>
+        </form>
+
+        <div class="overflow-auto text-nowrap">
+            <a href="chat/chat-1.html" class="position-relative me-2"><img src="assets/img/avatar/2.jpg"
+                    alt="Ollie Chandler" class="img-thumbnail rounded-circle d-inline-block darkmode-bg darkmode-border"
+                    width="60"><span
+                    class="position-absolute top-0 start-100 translate-middle p-2 bg-success border border-light rounded-circle darkmode-border">
+                    <span class="visually-hidden">Ollie Chandler</span>
+                </span></a>
+            <a href="chat/chat-2.html" class="position-relative me-2"><img src="assets/img/avatar/3.jpg"
+                    alt="Elise Dennis" class="img-thumbnail rounded-circle d-inline-block darkmode-bg darkmode-border"
+                    width="60"><span
+                    class="position-absolute top-0 start-100 translate-middle p-2 bg-success border border-light rounded-circle darkmode-border">
+                    <span class="visually-hidden">Elise Dennis</span>
+                </span></a>
+            <a href="chat/chat-1.html" class="position-relative me-2"><img src="assets/img/avatar/5.jpg"
+                    alt="Mila White" class="img-thumbnail rounded-circle d-inline-block darkmode-bg darkmode-border"
+                    width="60"><span
+                    class="position-absolute top-0 start-100 translate-middle p-2 bg-success border border-light rounded-circle darkmode-border">
+                    <span class="visually-hidden">Mila White</span>
+                </span></a>
+            <a href="chat/chat-1.html" class="position-relative me-2"><img src="assets/img/avatar/7.jpg" alt="William"
+                    class="img-thumbnail rounded-circle d-inline-block darkmode-bg darkmode-border" width="60"><span
+                    class="position-absolute top-0 start-100 translate-middle p-2 bg-success border border-light rounded-circle darkmode-border">
+                    <span class="visually-hidden">William</span>
+                </span></a>
+            <a href="chat/chat-1.html" class="position-relative me-2"><img src="assets/img/avatar/8.jpg"
+                    alt="Bill Marrow" class="img-thumbnail rounded-circle d-inline-block darkmode-bg darkmode-border"
+                    width="60"><span
+                    class="position-absolute top-0 start-100 translate-middle p-2 bg-success border border-light rounded-circle darkmode-border">
+                    <span class="visually-hidden">Bill Marrow</span>
+                </span></a>
+            <a href="chat/chat-1.html" class="position-relative me-2"><img src="assets/img/avatar/9.jpg"
+                    alt="Don Knight" class="img-thumbnail rounded-circle d-inline-block darkmode-bg darkmode-border"
+                    width="60"><span
+                    class="position-absolute top-0 start-100 translate-middle p-2 bg-success border border-light rounded-circle darkmode-border">
+                    <span class="visually-hidden">Don Knight</span>
+                </span></a>
+            <a href="chat/chat-1.html" class="position-relative me-2"><img src="assets/img/avatar/10.jpg"
+                    alt="Brad Pitt" class="img-thumbnail rounded-circle d-inline-block darkmode-bg darkmode-border"
+                    width="60"><span
+                    class="position-absolute top-0 start-100 translate-middle p-2 bg-success border border-light rounded-circle darkmode-border">
+                    <span class="visually-hidden">Brad Pitt</span>
+                </span></a>
+            <a href="chat/chat-1.html" class="position-relative me-2"><img src="assets/img/avatar/11.jpg" alt="Jhon"
+                    class="img-thumbnail rounded-circle d-inline-block darkmode-bg darkmode-border" width="60"><span
+                    class="position-absolute top-0 start-100 translate-middle p-2 bg-success border border-light rounded-circle darkmode-border">
+                    <span class="visually-hidden">Jhon</span>
+                </span></a>
+        </div>
+
+        <a href="chat/chat-1.html"
+            class="d-flex align-items-center mt-3 text-decoration-none text-dark chat darkmode-hover">
+            <div class="flex-shrink-0 position-relative">
+                <img src="assets/img/avatar/2.jpg" alt="Ollie Chandler"
+                    class="img-thumbnail rounded-circle darkmode-bg darkmode-border" width="60">
+                <span
+                    class="position-absolute chat-profile start-100 translate-middle p-2 bg-success border border-light rounded-circle darkmode-border">
+                    <span class="visually-hidden">Ollie Chandler</span>
+                </span>
+            </div>
+            <div class="flex-grow-1 ms-3 mt-3">
+                <h6 class="chat-title darkmode-text">Ollie Chandler</h6>
+                <div class="row">
+                    <div class="col-10 col-md-11">
+                        <p class="text-muted darkmode-text-2">
+                            you are from? -
+                            18 January <script>
+                                document.write(new Date().getFullYear());
+                            </script>
+                        </p>
+                    </div>
+                    <div class="col-2 col-md-1">
+                        <span class="badge bg-primary rounded-pill text-end bg-gradient bg-opacity-75">2</span>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a href="chat/chat-2.html"
+            class="d-flex align-items-center mt-3 text-decoration-none text-dark chat darkmode-hover">
+            <div class="flex-shrink-0 position-relative">
+                <img src="assets/img/avatar/3.jpg" alt="Elise Dennis"
+                    class="img-thumbnail rounded-circle darkmode-bg darkmode-border" width="60">
+                <span
+                    class="position-absolute chat-profile start-100 translate-middle p-2 bg-success border border-light rounded-circle darkmode-border">
+                    <span class="visually-hidden">Elise Dennis</span>
+                </span>
+            </div>
+            <div class="flex-grow-1 ms-3 mt-3">
+                <h6 class="chat-title darkmode-text">Elise Dennis</h6>
+                <div class="row">
+                    <div class="col-10 col-md-11">
+                        <p class="text-muted darkmode-text-2">you
+                            there? - 17
+                            January <script>
+                                document.write(new Date().getFullYear());
+                            </script>
+                        </p>
+                    </div>
+                    <div class="col-2 col-md-1">
+                        <img src="assets/img/avatar/3.jpg" alt="Elise Dennis" class="rounded-circle" width="20">
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a href="chat/chat-3.html"
+            class="d-flex align-items-center mt-3 text-decoration-none text-dark chat darkmode-hover">
+            <div class="flex-shrink-0 position-relative">
+                <img src="assets/img/avatar/4.jpg" alt="Warren White"
+                    class="img-thumbnail rounded-circle darkmode-bg darkmode-border" width="60">
+                <span
+                    class="position-absolute chat-profile start-100 translate-middle p-2 bg-danger border border-light rounded-circle darkmode-border">
+                    <span class="visually-hidden">Warren White</span>
+                </span>
+            </div>
+            <div class="flex-grow-1 ms-3 mt-3">
+                <h6 class="chat-title darkmode-text">Warren White</h6>
+                <div class="row">
+                    <div class="col-10 col-md-11">
+                        <p class="text-muted darkmode-text-2">Hey, Warren! How are... - 16 January <script>
+                                document.write(new Date().getFullYear());
+                            </script>
+                        </p>
+                    </div>
+                    <div class="col-2 col-md-1">
+                        <i class="bi bi-check-circle text-secondary fs-6"></i>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a href="chat/chat-4.html"
+            class="d-flex align-items-center mt-3 text-decoration-none text-dark chat darkmode-hover">
+            <div class="flex-shrink-0 position-relative">
+                <img src="assets/img/avatar/6.jpg" alt="Damian Binder"
+                    class="img-thumbnail rounded-circle darkmode-bg darkmode-border" width="60">
+                <span
+                    class="position-absolute chat-profile start-100 translate-middle p-2 bg-danger border border-light rounded-circle darkmode-border">
+                    <span class="visually-hidden">Damian Binder</span>
+                </span>
+            </div>
+            <div class="flex-grow-1 ms-3 mt-3">
+                <h6 class="chat-title darkmode-text">Damian Binder</h6>
+                <div class="row">
+                    <div class="col-10 col-md-11">
+                        <p class="text-muted darkmode-text-2">Hi bro? -
+                            13
+                            January <script>
+                                document.write(new Date().getFullYear());
+                            </script>
+                        </p>
+                    </div>
+                    <div class="col-2 col-md-1">
+                        <span class="badge bg-primary rounded-pill text-end bg-gradient bg-opacity-75">1</span>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a href="#" class="d-flex align-items-center mt-3 text-decoration-none text-dark chat darkmode-hover"
+            aria-hidden="true">
+            <div class="flex-shrink-0 position-relative placeholder-glow bg-secondary">
+                <img src="assets/img/avatar/10.jpg" alt="Damian Binder" class="placeholder bg-secondary" width="60">
+            </div>
+            <div class="flex-grow-1 ms-3 mt-3">
+                <h6 class="chat-title darkmode-text placeholder-glow"><span class="placeholder col-md-2 col-4"></span>
+                </h6>
+                <div class="row">
+                    <div class="col-10 col-md-11 placeholder-glow">
+                        <p><span class="placeholder col-md-4 col-7"></span>
+                        </p>
+                    </div>
+                    <div class="col-2 col-md-1">
+                        <span class="placeholder col-md-4 col-4"></span>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a href="#" class="d-flex align-items-center mt-3 text-decoration-none text-dark chat darkmode-hover"
+            aria-hidden="true">
+            <div class="flex-shrink-0 position-relative placeholder-glow bg-secondary">
+                <img src="assets/img/avatar/11.jpg" alt="Damian Binder" class="placeholder bg-secondary" width="60">
+            </div>
+            <div class="flex-grow-1 ms-3 mt-3">
+                <h6 class="chat-title darkmode-text placeholder-glow"><span class="placeholder col-md-2 col-4"></span>
+                </h6>
+                <div class="row">
+                    <div class="col-10 col-md-11 placeholder-glow">
+                        <p><span class="placeholder col-md-4 col-7"></span>
+                        </p>
+                    </div>
+                    <div class="col-2 col-md-1">
+                        <span class="placeholder col-md-4 col-4"></span>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+    </div>
+
+    <nav
+        class="navbar bg-white navbar-expand fixed-bottom border-top border-secondary-subtle darkmode-bg darkmode-border-top">
+        <ul class="navbar-nav nav-justified w-100">
+            <li class="nav-item">
+                <a href="index.html" class="nav-link active">
+                    <i class="bi bi-chat-fill fs-6 darkmode-text"></i>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="call.html" class="nav-link">
+                    <i class="bi bi-telephone-fill fs-6 darkmode-text"></i>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="people.html" class="nav-link">
+                    <i class="bi bi-people-fill fs-6 darkmode-text"></i>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="story.html" class="nav-link">
+                    <i class="bi bi-grid-1x2-fill fs-6 darkmode-text"></i>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="settings.html" class="nav-link">
+                    <i class="bi bi-gear-fill fs-6 darkmode-text"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/mesengger.js"></script>
+</body>
+
+</html>
