@@ -1,212 +1,359 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Settings - Messenger</title>
-    <link rel="apple-touch-icon" sizes="57x57" href="assets/img/favicon/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="assets/img/favicon/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="assets/img/favicon/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="assets/img/favicon/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="assets/img/favicon/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="assets/img/favicon/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="assets/img/favicon/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="assets/img/favicon/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="assets/img/favicon/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicon/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png">
-    <link rel="manifest" href="assets/img/favicon/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="assets/img/favicon/ms-icon-144x144.png">
-    <link rel="shortcut icon" href="assets/img/favicon/favicon.ico">
-    <meta name="theme-color" content="#ffffff">
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap-icons.css">
-    <link href="assets/css/messenger.css" rel="stylesheet">
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="assets/img/favicon/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="assets/img/favicon/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="assets/img/favicon/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="assets/img/favicon/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="assets/img/favicon/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="assets/img/favicon/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="assets/img/favicon/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="assets/img/favicon/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/img/favicon/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="assets/img/favicon/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/img/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="assets/img/favicon/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/img/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="assets/img/favicon/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta
+      name="msapplication-TileImage"
+      content="assets/img/favicon/ms-icon-144x144.png"
+    />
+    <link rel="shortcut icon" href="assets/img/favicon/favicon.ico" />
+    <meta name="theme-color" content="#ffffff" />
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="assets/vendor/bootstrap/css/bootstrap-icons.css"
+    />
+    <link href="assets/css/messenger.css" rel="stylesheet" />
     <script src="assets/vendor/sweetalert2/dist/sweetalert2.min.js"></script>
-    <link rel="stylesheet" href="assets/vendor/sweetalert2/dist/sweetalert2.min.css">
-</head>
+    <link
+      rel="stylesheet"
+      href="assets/vendor/sweetalert2/dist/sweetalert2.min.css"
+    />
+  </head>
 
-<body class="bg-white overflow-x-hidden">
-
+  <body class="bg-white overflow-x-hidden">
     <nav class="navbar bg-white sticky-top darkmode-nav">
-        <div class="container">
-            <div class="navbar-brand mb-0 h1 fw-bold darkmode-text"><a href="settings.html"><img
-                        src="assets/img/avatar/1.jpg" alt="Rio AP"
-                        class="img-thumbnail rounded-circle darkmode-bg darkmode-border" width="35"></a> Settings</div>
+      <div class="container">
+        <div class="navbar-brand mb-0 h1 fw-bold darkmode-text">
+          <a href="settings.html"
+            ><img
+              src="assets/img/avatar/1.jpg"
+              alt="Rio AP"
+              class="img-thumbnail rounded-circle darkmode-bg darkmode-border"
+              width="35"
+          /></a>
+          Settings
         </div>
+      </div>
     </nav>
 
     <div class="container mt-5 chat-m">
-        <div class="text-center mb-3">
-            <img src="assets/img/avatar/1.jpg" alt="Rio AP"
-                class="img-thumbnail rounded-circle darkmode-border darkmode-bg" width="190">
-            <h3 class="mt-3 fw-bold darkmode-text">Rio AP</h3>
+      <div class="text-center mb-3">
+        <img
+          src="assets/img/avatar/1.jpg"
+          alt="Rio AP"
+          class="img-thumbnail rounded-circle darkmode-border darkmode-bg"
+          width="190"
+        />
+        <h3 class="mt-3 fw-bold darkmode-text">Rio AP</h3>
+      </div>
+
+      <label
+        class="d-flex align-items-center mt-1 text-decoration-none text-dark chat p-2 darkmode-hover"
+        for="darkmode"
+      >
+        <div class="flex-shrink-0">
+          <div class="badge bg-dark rounded-circle p-2">
+            <i class="bi bi-moon-stars-fill fs-5 text-white"></i>
+          </div>
         </div>
+        <div class="flex-grow-1 ms-3">
+          <h6 class="pt-2 darkmode-text">Dark Mode</h6>
+          <div class="float-end calling">
+            <div class="form-check form-switch">
+              <input
+                class="form-check-input form-control mt-3"
+                type="checkbox"
+                role="switch"
+                id="darkmode"
+                style="width: 40px; height: 20px"
+              />
+            </div>
+          </div>
+        </div>
+      </label>
 
-        <label class="d-flex align-items-center mt-1 text-decoration-none text-dark chat p-2 darkmode-hover"
-            for="darkmode">
-            <div class="flex-shrink-0">
-                <div class="badge bg-dark rounded-circle p-2"><i class="bi bi-moon-stars-fill fs-5 text-white"></i>
-                </div>
-            </div>
-            <div class="flex-grow-1 ms-3">
-                <h6 class="pt-2 darkmode-text">Dark Mode</h6>
-                <div class="float-end calling">
-                    <div class="form-check form-switch">
-                        <input class="form-check-input form-control mt-3" type="checkbox" role="switch" id="darkmode"
-                            style="width: 40px; height: 20px;">
-                    </div>
-                </div>
-            </div>
-        </label>
+      <a
+        type="button"
+        data-bs-toggle="modal"
+        data-bs-target="#usernameModal"
+        class="d-flex align-items-center mt-1 text-decoration-none text-dark chat p-2 darkmode-hover mb-3"
+      >
+        <div class="flex-shrink-0">
+          <div class="badge bg-success rounded-circle p-2">
+            <i class="bi bi-at text-dark fs-5 text-white"></i>
+          </div>
+        </div>
+        <div class="flex-grow-1 ms-3">
+          <h6 class="pt-2 darkmode-text">Username</h6>
+          <p class="text-muted settings-p mb-1 darkmode-text-2">
+            mesengger.me/rioap
+          </p>
+        </div>
+      </a>
 
-        <a type="button" data-bs-toggle="modal" data-bs-target="#usernameModal"
-            class="d-flex align-items-center mt-1 text-decoration-none text-dark chat p-2 darkmode-hover mb-3">
-            <div class="flex-shrink-0">
-                <div class="badge bg-success rounded-circle p-2"><i class="bi bi-at text-dark fs-5 text-white"></i>
-                </div>
-            </div>
-            <div class="flex-grow-1 ms-3">
-                <h6 class="pt-2 darkmode-text">Username</h6>
-                <p class="text-muted settings-p mb-1 darkmode-text-2">mesengger.me/Rio AP</p>
-            </div>
-        </a>
+      <span class="text-muted fw-bold darkmode-text-2">Account</span>
 
-        <span class="text-muted fw-bold darkmode-text-2">Account</span>
+      <a
+        href="settings/account-settings.html"
+        class="d-flex align-items-center mt-1 text-decoration-none text-dark chat p-2 darkmode-hover"
+      >
+        <div class="flex-shrink-0">
+          <div class="badge bg-primary rounded-circle p-2">
+            <i class="bi bi-gear-fill fs-5 text-white"></i>
+          </div>
+        </div>
+        <div class="flex-grow-1 ms-3">
+          <h6 class="pt-2 darkmode-text">Account settings</h6>
+        </div>
+      </a>
 
-        <a href="settings/account-settings.html"
-            class="d-flex align-items-center mt-1 text-decoration-none text-dark chat p-2 darkmode-hover">
-            <div class="flex-shrink-0">
-                <div class="badge bg-primary rounded-circle p-2"><i class="bi bi-gear-fill fs-5 text-white"></i>
-                </div>
-            </div>
-            <div class="flex-grow-1 ms-3">
-                <h6 class="pt-2 darkmode-text">Account settings</h6>
-            </div>
-        </a>
-
-        <a href="sign-in.html"
-            class="d-flex align-items-center mt-1 text-decoration-none text-dark chat p-2 darkmode-hover">
-            <div class="flex-shrink-0">
-                <div class="badge bg-danger rounded-circle p-2"><i class="bi bi-box-arrow-left fs-5 text-white"></i>
-                </div>
-            </div>
-            <div class="flex-grow-1 ms-3">
-                <h6 class="pt-2 darkmode-text">Sign out</h6>
-            </div>
-        </a>
-
+      <a
+        href="sign-in.html"
+        class="d-flex align-items-center mt-1 text-decoration-none text-dark chat p-2 darkmode-hover"
+      >
+        <div class="flex-shrink-0">
+          <div class="badge bg-danger rounded-circle p-2">
+            <i class="bi bi-box-arrow-left fs-5 text-white"></i>
+          </div>
+        </div>
+        <div class="flex-grow-1 ms-3">
+          <h6 class="pt-2 darkmode-text">Sign out</h6>
+        </div>
+      </a>
     </div>
 
     <nav
-        class="navbar bg-white navbar-expand fixed-bottom border-top border-secondary-subtle darkmode-bg darkmode-border-top">
-        <ul class="navbar-nav nav-justified w-100">
-            <li class="nav-item">
-                <a href="index.html" class="nav-link darkmode-text">
-                    <i class="bi bi-chat-fill fs-6"></i>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a href="call.html" class="nav-link darkmode-text">
-                    <i class="bi bi-telephone-fill fs-6"></i>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a href="people.html" class="nav-link darkmode-text">
-                    <i class="bi bi-people-fill fs-6"></i>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a href="story.html" class="nav-link darkmode-text">
-                    <i class="bi bi-grid-1x2-fill fs-6"></i>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a href="settings.html" class="nav-link darkmode-text active">
-                    <i class="bi bi-gear-fill fs-6"></i>
-                </a>
-            </li>
-        </ul>
+      class="navbar bg-white navbar-expand fixed-bottom border-top border-secondary-subtle darkmode-bg darkmode-border-top"
+    >
+      <ul class="navbar-nav nav-justified w-100">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link darkmode-text">
+            <i class="bi bi-chat-fill fs-6"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="call.html" class="nav-link darkmode-text">
+            <i class="bi bi-telephone-fill fs-6"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="people.html" class="nav-link darkmode-text">
+            <i class="bi bi-people-fill fs-6"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="story.html" class="nav-link darkmode-text">
+            <i class="bi bi-grid-1x2-fill fs-6"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="settings.html" class="nav-link darkmode-text active">
+            <i class="bi bi-gear-fill fs-6"></i>
+          </a>
+        </li>
+      </ul>
     </nav>
 
-    <div class="modal modal-tour fade" tabindex="-1" role="dialog" id="usernameModal"
-        aria-labelledby="usernameModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content rounded-4 shadow darkmode-bg-2">
-                <div class="modal-body p-5 darkmode-bg-2 rounded">
-                    <input class="form-control bg-transparent border-0 h6 fw-semibold darkmode-text" type="text"
-                        value="mesengger.me/Rio AP" disabled readonly id="copyUsername">
+    <div
+      class="modal modal-tour fade"
+      tabindex="-1"
+      role="dialog"
+      id="usernameModal"
+      aria-labelledby="usernameModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content rounded-4 shadow darkmode-bg-2">
+          <div class="modal-body p-5 darkmode-bg-2 rounded">
+            <input
+              class="form-control bg-transparent border-0 h6 fw-semibold darkmode-text"
+              type="text"
+              value="mesengger.me/Rio AP"
+              disabled
+              readonly
+              id="copyUsername"
+            />
 
-                    <a data-bs-target="#username2Modal" data-bs-toggle="modal" type="button"
-                        class="d-flex align-items-center mt-1 text-decoration-none text-dark chat p-2 darkmode-hover mt-4">
-                        <div class="flex-shrink-0">
-                            <div class="badge bg-secondary rounded-circle p-2"><i
-                                    class="bi bi-at text-dark fs-5 text-white"></i>
-                            </div>
-                        </div>
-                        <div class="flex-grow-1 ms-3">
-                            <h6 class="pt-2 darkmode-text">Edit Username</h6>
-                        </div>
-                    </a>
-                    <a onclick="copyUsername()" type="button"
-                        class="d-flex align-items-center mt-1 text-decoration-none text-dark chat p-2 darkmode-hover">
-                        <div class="flex-shrink-0">
-                            <div class="badge bg-secondary rounded-circle p-2"><i
-                                    class="bi bi-link text-dark fs-5 text-white"></i>
-                            </div>
-                        </div>
-                        <div class="flex-grow-1 ms-3">
-                            <h6 class="pt-2 darkmode-text">Copy Link</h6>
-                        </div>
-                    </a>
+            <a
+              data-bs-target="#username2Modal"
+              data-bs-toggle="modal"
+              type="button"
+              class="d-flex align-items-center mt-1 text-decoration-none text-dark chat p-2 darkmode-hover mt-4"
+            >
+              <div class="flex-shrink-0">
+                <div class="badge bg-secondary rounded-circle p-2">
+                  <i class="bi bi-at text-dark fs-5 text-white"></i>
                 </div>
-            </div>
+              </div>
+              <div class="flex-grow-1 ms-3">
+                <h6 class="pt-2 darkmode-text">Edit Username</h6>
+              </div>
+            </a>
+            <a
+              onclick="copyUsername()"
+              type="button"
+              class="d-flex align-items-center mt-1 text-decoration-none text-dark chat p-2 darkmode-hover"
+            >
+              <div class="flex-shrink-0">
+                <div class="badge bg-secondary rounded-circle p-2">
+                  <i class="bi bi-link text-dark fs-5 text-white"></i>
+                </div>
+              </div>
+              <div class="flex-grow-1 ms-3">
+                <h6 class="pt-2 darkmode-text">Copy Link</h6>
+              </div>
+            </a>
+          </div>
         </div>
+      </div>
     </div>
 
-    <div class="modal modal-signin fade rounded" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-        role="dialog" id="username2Modal" aria-labelledby="username2ModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered rounded" role="document">
-            <div class="modal-content rounded-4 shadow darkmode-bg">
-                <div class="modal-header p-5 pb-4 border-bottom-0 darkmode-bg-2">
-                    <h1 class="fw-bold mb-0 fs-2 darkmode-text" id="username2ModalLabel">Username</h1>
-                    <button type="button" class="btn-close darkmode-btn-close" data-bs-dismiss="modal"
-                        aria-label="Close"></button>
+    <div
+      class="modal modal-signin fade rounded"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      role="dialog"
+      id="username2Modal"
+      aria-labelledby="username2ModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered rounded" role="document">
+        <div class="modal-content rounded-4 shadow darkmode-bg">
+          <div class="modal-header p-5 pb-4 border-bottom-0 darkmode-bg-2">
+            <h1
+              class="fw-bold mb-0 fs-2 darkmode-text"
+              id="username2ModalLabel"
+            >
+              Username
+            </h1>
+            <button
+              type="button"
+              class="btn-close darkmode-btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+
+          <div class="modal-body p-5 pt-0 darkmode-bg-2 rounded">
+            <form action="" method="POST">
+              <div class="input-group mb-3">
+                <div class="form-floating">
+                  <input
+                    type="text"
+                    class="form-control rounded-3 darkmode-bg darkmode-border darkmode-text shadow-none border"
+                    id="floatingInput"
+                    placeholder="rioap"
+                    value="rioap"
+                  />
+                  <label for="floatingInput" class="darkmode-text"
+                    >Username</label
+                  >
                 </div>
+                <button
+                  type="submit"
+                  class="input-group-text border-0 bg-transparent text-primary fw-bold"
+                  id="basic-addon1"
+                >
+                  Save
+                </button>
+              </div>
 
-                <div class="modal-body p-5 pt-0 darkmode-bg-2 rounded">
-                    <form action="" method="POST">
-                        <div class="input-group mb-3">
-                            <div class="form-floating">
-                                <input type="text"
-                                    class="form-control rounded-3 darkmode-bg darkmode-border darkmode-text shadow-none border"
-                                    id="floatingInput" placeholder="Rio AP" value="Rio AP">
-                                <label for="floatingInput" class="darkmode-text">Username</label>
-                            </div>
-                            <button type="submit" class="input-group-text border-0 bg-transparent text-primary fw-bold"
-                                id="basic-addon1">Save</button>
-                        </div>
+              <p class="text-muted ps-2 darkmode-text-2">
+                Your username becomes part of your custom link that allows
+                people to visit your profile and reach you on Messenger.
+              </p>
 
-                        <p class="text-muted ps-2 darkmode-text-2">Your username becomes part of your custom link
-                            that allows people to visit your profile and reach you on Messenger.</p>
-
-                        <p class="text-muted ps-2 darkmode-text-2">Need help? <a href="#"
-                                class="text-primary text-decoration-none">Get
-                                tips on choosing a
-                                username</a></p>
-                    </form>
-                </div>
-            </div>
+              <p class="text-muted ps-2 darkmode-text-2">
+                Need help?
+                <a href="#" class="text-primary text-decoration-none"
+                  >Get tips on choosing a username</a
+                >
+              </p>
+            </form>
+          </div>
         </div>
+      </div>
     </div>
-
 
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/mesengger.js"></script>
-</body>
-
+  </body>
 </html>
